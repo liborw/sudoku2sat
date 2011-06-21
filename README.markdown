@@ -1,6 +1,6 @@
 `sudoku2sat.py` is simple python script to convert [Sudoku][sudoku] to [Boolean satisfiability problem][sat] the scripts reads sudoku table in specific format and converts int to boolean formulas in format used by SAT solvers, it can also read output of SAT solver and output solved sudoku. I used [minisat][minisat] SAT solver.
 
-### Format example
+### Input format example
 
     # Comment
     9 - 5 - - - - - 8
@@ -14,6 +14,18 @@
     - - 2 - - 7 - 6 -
     # Comment
 
+### Usage
+
+    $ sudoku2sat.py -h
+    sudoku2sat.py: [options]
+
+    Options:
+        -h --help           This help
+        -b --board X        Size of board
+        -d                  Debug
+        -p --problem file   Problem to be converted to sat.
+        -r --result file    File containing results
+
 ### Acknowledgement
 This project is part of the [A4M33AU: Automatic Reasoning][a4m33au] course on [Faculty of Electrical Engineering][fee].
 
@@ -22,3 +34,4 @@ This project is part of the [A4M33AU: Automatic Reasoning][a4m33au] course on [F
 [sat]: http://en.wikipedia.org/wiki/Boolean_satisfiability_problem
 [sudoku]: http://en.wikipedia.org/wiki/Sudoku
 [minisat]: http://minisat.se/
+[sat_input]: 
