@@ -34,4 +34,3 @@ This project is part of the [A4M33AU: Automatic Reasoning][a4m33au] course on [F
 [sat]: http://en.wikipedia.org/wiki/Boolean_satisfiability_problem
 [sudoku]: http://en.wikipedia.org/wiki/Sudoku
 [minisat]: http://minisat.se/
-[sat_input]: 
